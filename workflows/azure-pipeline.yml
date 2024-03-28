@@ -1,0 +1,16 @@
+name: Build and deploy Jar app to Azure Web App - Polling APIs
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+
+
+jobs:
+  deploy_to_production:
+    runs-on: ubuntu-latest
+    name: deploy to production with artifact
+    steps:
+      - 
